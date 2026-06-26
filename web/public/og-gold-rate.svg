@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5DE"/>
+      <stop offset="1" stop-color="#EAD4A4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 140) rotate(130.103) scale(360.949 332.468)">
+      <stop stop-color="#FFF4C7"/>
+      <stop offset="1" stop-color="#FFF4C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbonOne" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8E5A24"/>
+      <stop offset="1" stop-color="#D9B46B"/>
+    </linearGradient>
+    <linearGradient id="ribbonTwo" x1="1" y1="0" x2="0" y2="1">
+      <stop stop-color="#F0D38D"/>
+      <stop offset="1" stop-color="#B8852D"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="630" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#7F5A21" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="32" fill="url(#glow)"/>
+
+  <path d="M889 86C1018 144 1069 196 1118 292C989 248 916 266 810 344C733 400 676 440 564 469C611 367 683 291 765 226C805 194 851 153 889 86Z" fill="url(#ribbonTwo)" opacity="0.82"/>
+  <path d="M926 120C1008 161 1055 198 1098 265C1012 245 944 260 860 319C787 371 726 408 634 430C683 338 754 269 813 224C861 188 895 158 926 120Z" fill="url(#ribbonOne)" opacity="0.88"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="72" width="1056" height="486" rx="30" fill="rgba(255,251,245,0.76)"/>
+    <rect x="72" y="72" width="1056" height="486" rx="30" stroke="rgba(142,90,36,0.18)"/>
+  </g>
+
+  <text x="112" y="150" fill="#8E5A24" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="4">KALAMANDIR GOLD RATE</text>
+  <text x="112" y="248" fill="#2E2419" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Daily 18K &amp; 22K</text>
+  <text x="112" y="328" fill="#2E2419" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">price updates</text>
+  <text x="112" y="394" fill="#5D4934" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">
+    Check today&apos;s gold rate and compare recent price movement in one easy page.
+  </text>
+
+  <rect x="112" y="446" width="214" height="72" rx="22" fill="#8E5A24"/>
+  <text x="145" y="492" fill="#FFF9F1" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">18K Daily Rate</text>
+
+  <rect x="348" y="446" width="214" height="72" rx="22" fill="#D9B46B"/>
+  <text x="381" y="492" fill="#3E2C13" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">22K Daily Rate</text>
+
+  <path d="M744 468C777 427 814 399 852 383C890 367 930 360 971 360C1007 360 1043 365 1079 377" stroke="#8E5A24" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="744" cy="468" r="11" fill="#8E5A24"/>
+  <circle cx="852" cy="383" r="11" fill="#A97029"/>
+  <circle cx="971" cy="360" r="11" fill="#D9B46B"/>
+  <circle cx="1079" cy="377" r="11" fill="#E7C980"/>
+</svg>

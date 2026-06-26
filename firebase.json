@@ -1,0 +1,44 @@
+{
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "public": "web/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/latest",
+        "function": {
+          "functionId": "getLatestGoldRate",
+          "region": "asia-south1"
+        }
+      },
+      {
+        "source": "/api/history",
+        "function": {
+          "functionId": "getGoldRateHistory",
+          "region": "asia-south1"
+        }
+      },
+      {
+        "source": "/api/refresh",
+        "function": {
+          "functionId": "refreshTodayGoldRate",
+          "region": "asia-south1"
+        }
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
