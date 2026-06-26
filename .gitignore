@@ -4,6 +4,8 @@ node_modules
 firebase-debug.log
 functions/node_modules
 web/node_modules
+functions/.npm-cache
+web/.npm-cache
 web/dist
 coverage
 .DS_Store
